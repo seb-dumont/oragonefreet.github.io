@@ -15,10 +15,8 @@ $lightGray: #eee;
 $white: #fff;
 
 // Font stacks
-$SansSerif: 'Titillium Web', sans-serif;
-$helvetica: Helvetica, Arial, sans-serif;
-$helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$georgia: Georgia, serif;
+$SansSerif: 'Source Sans Pro', sans-serif;
+$MonoSpace: 'Anonymous Pro', monospace;
 
 // Mobile breakpoints
 @mixin mobile {
