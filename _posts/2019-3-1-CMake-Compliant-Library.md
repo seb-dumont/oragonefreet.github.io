@@ -113,7 +113,7 @@ set_target_properties(CO::Maths PROPERTIES
 
 If you don't know what imported targets are, this is not a big deal. Just keep in mind that imported targets are libraries that are *not built by our project*. It is a very convenient way to express already built binaries as a CMake compliant target, and it is exactly what we do here.
 
-> Configuration files essentially about creating an `IMPORTED` target for the user.
+> Configuration files are essentially about creating an `IMPORTED` target for the user.
 
 As you probably guessed, we have to create this file for our maths library. But don't worry CMake will do most of the job.
 
